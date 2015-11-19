@@ -1,7 +1,7 @@
 # Git useful aliases
 > Small list of useful [Git aliases](https://git-scm.com/book/tr/v2/Git-Basics-Git-Aliases).
 
-## Aliases
+## Aliases
 
 #### git last
 Show last commit (HEAD)
@@ -41,6 +41,12 @@ $ git config --global alias.up 'push -u origin master'
 ```sh
 $ git config --global alias.save '!git add -A; git commit .'
 > git save
+```
+
+## Install
+
+```sh
+$ sh install.sh
 ```
 
 ## Contributions
