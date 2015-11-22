@@ -17,4 +17,7 @@ git config --global alias.up 'push -u origin master'
 # git save
 git config --global alias.save '!git add -A; git commit .'
 
+# git uptags
+git config --global alias.uptags 'push --follow-tags'
+
 echo "Git aliases has been installed."

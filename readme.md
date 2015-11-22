@@ -43,6 +43,14 @@ $ git config --global alias.save '!git add -A; git commit .'
 > git save
 ```
 
+#### git uptags
+Push all tags to remote repository.
+
+```sh
+$ git config --global alias.uptags 'push --follow-tags'
+> git uptags
+```
+
 ## Install
 
 ```sh
