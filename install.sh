@@ -20,4 +20,7 @@ git config --global alias.save '!git add -A; git commit .'
 # git uptags
 git config --global alias.uptags 'push --follow-tags'
 
+# git downtags
+git config --global alias.downtags 'fetch --tags'
+
 echo "Git aliases has been installed."
