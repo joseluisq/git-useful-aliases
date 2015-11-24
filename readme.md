@@ -51,6 +51,14 @@ $ git config --global alias.uptags 'push --follow-tags'
 > git uptags
 ```
 
+#### git downtags
+Pull down all tags from remote repository.
+
+```sh
+$ git config --global alias.downtags 'fetch --tags'
+> git downtags
+```
+
 ## Install
 
 ```sh
