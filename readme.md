@@ -1,6 +1,12 @@
 # Git useful aliases
 > Small list of useful [Git aliases](https://git-scm.com/book/tr/v2/Git-Basics-Git-Aliases).
 
+## Install
+
+```sh
+$ sh install.sh
+```
+
 ## Aliases
 
 #### git last
@@ -59,11 +65,15 @@ $ git config --global alias.downtags 'fetch --tags'
 > git downtags
 ```
 
-## Install
+#### git lg
+Show log in pretty format.
 
 ```sh
-$ sh install.sh
+$ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+> git lg
 ```
+
+*Source: https://coderwall.com/p/euwpig/a-better-git-log*
 
 ## Contributions
 [Pull requests](https://github.com/joseluisq/git-useful-aliases/pulls) and [issues](https://github.com/joseluisq/git-useful-aliases/issues) are be welcome.
