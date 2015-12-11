@@ -4,7 +4,7 @@
 ## Install
 
 ```sh
-$ sh install.sh
+$ wget http://git.io/git-useful-aliases -q -O - | sh
 ```
 
 ## Aliases
