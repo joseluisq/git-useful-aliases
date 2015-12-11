@@ -26,4 +26,4 @@ git config --global alias.downtags 'fetch --tags'
 # git lg
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
-echo "Git aliases has been installed."
+echo "\nGit aliases has been installed."
