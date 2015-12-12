@@ -4,7 +4,7 @@
 ## Install
 
 ```sh
-$ wget http://git.io/git-useful-aliases -q -O - | sh
+$ wget -qO- http://git.io/git-useful-aliases | sh
 ```
 
 ## Aliases
