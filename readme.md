@@ -75,10 +75,13 @@ $ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Cre
 
 *Source: https://coderwall.com/p/euwpig/a-better-git-log*
 
+## Related
+[Fish Gitnow](https://github.com/joseluisq/gitnow) - Simple and fast commands for your git workflow. :tropical_fish: + :octocat:
+
 ## Contributions
 [Pull requests](https://github.com/joseluisq/git-useful-aliases/pulls) and [issues](https://github.com/joseluisq/git-useful-aliases/issues) are be welcome.
 
 ## License
 MIT
 
-© 2015 [José Luis Quintana](http://quintana.io)
+© 2016 [José Luis Quintana](http://quintana.io)
